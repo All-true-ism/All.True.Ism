@@ -1,0 +1,29 @@
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.challenge, .rate, .feed {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #444;
+  border-radius: 10px;
+}
