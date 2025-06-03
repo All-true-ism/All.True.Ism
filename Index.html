@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ALL.true.ism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+  <header>
+    <img src="logo.png" alt="ALL.true.ism Logo" class="logo">
+    <h1>One True Act. One Ripple. Infinite Waves.</h1>
+  </header>
+
+  <main>
+    <section class="challenge">
+      <h2>Today’s Challenge</h2>
+      <p>Smile at five strangers and mean it.</p>
+      <button onclick="startLive()">Go Live</button>
+    </section>
+
+    <section class="rate">
+      <h2>How far outside your comfort zone was this?</h2>
+      <input type="range" min="1" max="5" value="3" class="slider">
+    </section>
+
+    <section class="feed">
+      <h2>Live Kindness Feed</h2>
+      <ul>
+        <li><strong>Hero.in.e.ve</strong> planted saplings & picked up trash</li>
+        <li><strong>QuietPowerMove</strong> wrote 100 affirmations and left them at the library</li>
+        <li><strong>RippleMaker</strong> bought coffee for 3 people behind them in line</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <button onclick="toggleTheme()">Toggle Light/Dark Mode</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
